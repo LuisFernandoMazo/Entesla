@@ -3,10 +3,12 @@ body{
 }
 
 .cover{
-    height: 400px;
+    width: 100%;
+    height: 300px;
     background-image: url(Imagenes/automatizacion-2500239.webp);
     color: rgb(249, 244, 244);
     background-position: center;
+
 }
 img{
     margin-left: 3%;
@@ -74,4 +76,12 @@ h6{
 }
 #copy{
     color: white;
+    margin-left: 5%;
+}
+.navbar-button{
+    margin-left: 90%;
+}
+.contactanos{
+    color: white;
+    margin-left: 5%;
 }

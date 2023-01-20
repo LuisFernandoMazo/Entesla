@@ -20,23 +20,29 @@
       <a class="navbar-brand" href="index.html">
         <img src="Imagenes/logo_principal.jpg" alt="logo">
       </a>
+      <div class="container-fluid">
+        <button class="navbar-toggler navbar-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link " href="#servicios">SERVICIOS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="SobreNosotros.html">ACERCA DE</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Contactenos.html">CONTACTENOS</a>
-        </li>
-      </ul>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 collapse navbar-collapse" id="navbarTogglerDemo01">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#servicios">SERVICIOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="SobreNosotros.html">ACERCA DE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contactenos.html">CONTACTENOS</a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <div class="cover d-flex justify-content-center align-items-center flex-column">
+    <div class="cover d-flex justify-content-center img-fluid align-items-center flex-column">
       <h1><strong>ENTESLA S.A.S</strong> </h1>
       <button type="button" class="btn btn-light">
         Conoce más
@@ -46,7 +52,7 @@
 
     <hr>
     <H1 id="empresa"><strong>¿QUIÉNES SOMOS?</strong></H1>
-    <div class="conteiner-descrip">
+    <div class="conteiner-descrip col-12 mt-2">
       <div>
         <p id="descrip">
           Somos unas organización comprometida con la calidad y responsabilidad de nuestros trabajos.
@@ -56,8 +62,8 @@
           capacitado y profesional, dispuesto satisfacer las necesidades de nuestros clientes.
         </p>
       </div>
-      <div class="right">
-        <img id="fon-prin" class="rounded float-start img-fluid" src="Imagenes/fondo_principal.jpg" alt="logo">
+      <div class="right float-start">
+        <img id="fon-prin" class="rounded " src="Imagenes/fondo_principal.jpg" alt="logo">
       </div>
     </div>
   </header>
@@ -170,14 +176,23 @@
         </div>
       </div>
     </div>
+
   </section>
- 
+
   <div class="footer">
     <hr>
     <footer>
-      <P id="contactanos">CONTACTANOS</P>
+      <P class="contactanos">CONTACTANOS
+        <ul class="contactanos">
+          <li>DIRECCIÓN:</li>
+          <li>TELEFONO:</li>
+          <li>CIUDAD:</li>
+          <li>CORREO:</li>
+        </ul>
+      </P>
+      <HR></HR>
       <h6 id="copy">COPYRIGHT © 2023 ENTESLA S.A.S</h6>
-      
+
 
     </footer>
     <br>
