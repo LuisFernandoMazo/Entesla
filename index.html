@@ -16,67 +16,87 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar  navbar-expand-lg bg-body-tertiary">
       <a class="navbar-brand" href="index.html">
-        <img src="Imagenes/logo_principal.jpg" alt="logo">
+        <img src="Imagenes/logo_principal.jpg" alt="logo" height="42px">
       </a>
       <div class="container-fluid">
-        <button class="navbar-toggler navbar-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-button" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav nav-button me-auto mb-2 mb-lg-0 collapse navbar-collapse" id="navbarTogglerDemo01">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+            <a class="nav-link" aria-current="page" href="index.html"><strong>INICIO</strong></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#servicios">SERVICIOS</a>
+            <a class="nav-link " href="#servicios"><strong>SERVICIOS</strong></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="SobreNosotros.html">ACERCA DE</a>
+            <a class="nav-link" href="#soluciones"><strong>SOLUCIONES</strong></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Contactenos.html">CONTACTENOS</a>
+            <a class="nav-link" href="SobreNosotros.html"><strong>ACERCA DE</strong></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Contactenos.html"><strong>CONTÁCTANOS</strong></a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="cover d-flex justify-content-center img-fluid align-items-center flex-column">
-      <h1><strong>ENTESLA S.A.S</strong> </h1>
+    <div class="cover cover-servicios d-flex justify-content-center img-fluid align-items-center flex-column">
+      <h1 style="color: white; "><strong>ENTESLA S.A.S</strong> </h1>
       <button type="button" class="btn btn-light">
         Conoce más
       </button>
     </div>
-    <br>
+    <div class="hero_wave" style="overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+        style="height: 100%; width: 100%;">
+        <path d="M-0.00,49.85 C150.00,149.60 349.20,-49.85 500.00,49.85 L500.00,149.60 L-0.00,149.60 Z"
+          style="stroke: none; fill: rgb(253, 253, 253)"></path>
+      </svg>
+    </div>
+  </header>
+  <br>
+  <br>
+  <br>
 
-    <hr>
-    <H1 id="empresa"><strong>¿QUIÉNES SOMOS?</strong></H1>
-    <div class="conteiner-descrip col-12 mt-2">
-      <div>
+  <H2 id="empresa"><strong>¿QUIÉNES SOMOS?</strong></H2>
+  <br>
+  
+  <div class="conteiner-descrip mt-2">
+    <div class="card">
+      <div class="card-body">
         <p id="descrip">
-          Somos unas organización comprometida con la calidad y responsabilidad de nuestros trabajos.
+          Somos una organización comprometida con la calidad y responsabilidad de nuestros trabajos.
           Brindamos soluciones eficaces a las necesidades y proyectos de automatización industrial y el diseño
           e instalacion de redes eléctricas de media y baja tensión, en el sector industrial, comercial y residencial.
           Contamos con un equipo de trabajo
           capacitado y profesional, dispuesto satisfacer las necesidades de nuestros clientes.
         </p>
       </div>
-      <div class="right float-start">
-        <img id="fon-prin" class="rounded " src="Imagenes/fondo_principal.jpg" alt="logo">
-      </div>
     </div>
-  </header>
+    <figure class="about__img about__img-left">
+      <img src="Imagenes/Banner-Automatizar-certificados-calidad-iso-9001.jpeg" alt="" class="about__picture">
+    </figure>
+  </div>
+
+  <br>
+  <br>
+  <br>
   <br>
   <br>
   <hr>
-  <h1 id="servicios"><strong>SERVICIOS</strong></h1>
+  
   <section>
+    <h2 id="servicios"><strong>NUESTROS SERVICIOS</strong></h2>
     <div class="container mt-6 mb-5">
       <div class="row justify-content-center">
 
         <div class="col-12 col-sm-6 col-dm-4 col-lg-3 mt-2">
-          <div class="card">
+          <div class="card ">
             <div class="cover cover-small" style="background-image: url(Imagenes/Automatización\ Industrial.jpg);">
             </div>
             <div class="card-body">
@@ -139,7 +159,7 @@
                 industrial, comercial y residencial, teniendo en cuenta las normas eléctricas vigentes en Colombia.
                 Nuestro acompañamiento en el
                 diseño e instalación de proyetos eléctricos, comprende:
-              <ul>
+              <ul class="card-list-4">
                 <li>Instalación de tuberia metálica</li>
                 <li>Trámites ante las empresas encargadas de la distribución de energía</li>
                 <li>Cálculo para la elección de subestaciones</li>
@@ -164,7 +184,7 @@
               <p class="card-text">Comprendemos la importancia de mantener sus equipos y máquinas en perfecto estado y
                 funcionalidad, es por ello
                 que contamos con el equipo técnico para ofrecer mantenimiento correctivo y preventivo en:
-              <ul class="card-list-4">
+              <ul class="card-list-2">
                 <li>Motores eléctricos</li>
                 <li>Variadores de velocidad</li>
                 <li>Ilumicación</li>
@@ -176,24 +196,105 @@
         </div>
       </div>
     </div>
+  </section>
+  <hr>
+  <section style="margin-bottom: 5%;">
+    <h3 id="soluciones"><strong>SOLUCIONES</strong> </h3>
+    <div class="card card-solu" style="margin-left: 4%; margin-right: 4%; margin-bottom: 3%;">
+      <div class="card-body">
+        <div style="margin-left: 4%;">
+          <h1 style="float: left;">01</h1>
+          <p style="font-size: 110%;">SOLUCIONES<br><strong
+              style="color: rgb(131, 7, 7); font-family: Arial, Helvetica, sans-serif; font-size: 110%;">INTEGRALES</strong>
+          </p>
+          <div>
+            <p class="soluciones-parraf">
+              Ofrecemos soluciones tecnológicas en el diseño y materialización de sus proyectos eléctricos y de
+              automatización
+              industrial con resultados medibles.
+              Comprendemos que los retos del mundo actual demandan la obtención de buenos resultados, la seguridad y las
+              practicas amigables con el medio
+              ambiente. Frente a lo anterior, ENTESLA S.A.S hace la diferencia, ya que contamos con un equipo de trabajo
+              dispuesto a ejecutar y cumplir los
+              requerimientos técnicos con seguridad respetando la normatividad de cada empresa y compromiso con el
+              cuidado
+              del
+              entorno.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-left: 4%; margin-right: 4%; margin-bottom: 3%;">
+      <div class="card-body">
+        <div style="margin-left: 4%;">
+          <h1 style="float: left;">02</h1>
+          <p style="font-size: 110%;">CALIDAD<br><strong
+              style="color: rgb(131, 7, 7); font-family: Arial, Helvetica, sans-serif; font-size: 110%;">SUPERIOR</strong>
+          </p>
+          <div>
+            <p class="soluciones-parraf">
+              Ofrecemos soluciones tecnológicas en el diseño y materialización de sus proyectos eléctricos y de
+              automatización
+              industrial con resultados medibles.
+              Comprendemos que los retos del mundo actual demandan la obtención de buenos resultados, la seguridad y las
+              practicas amigables con el medio
+              ambiente. Frente a lo anterior, ENTESLA S.A.S hace la diferencia, ya que contamos con un equipo de trabajo
+              dispuesto a ejecutar y cumplir los
+              requerimientos técnicos con seguridad respetando la normatividad de cada empresa y compromiso con el
+              cuidado
+              del
+              entorno.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-left: 4%; margin-right: 4%; margin-bottom: 3%;">
+      <div class="card-body">
+        <div style="margin-left: 4%;">
+          <h1 style="float: left;">03</h1>
+          <p style="font-size: 110%;">PROYECTOS<br><strong
+              style="color: rgb(131, 7, 7); font-family: Arial, Helvetica, sans-serif; font-size: 110%;">SOSTENIBLES</strong>
+          </p>
+          <div>
+            <p class="soluciones-parraf">
+              Ofrecemos soluciones tecnológicas en el diseño y materialización de sus proyectos eléctricos y de
+              automatización
+              industrial con resultados medibles.
+              Comprendemos que los retos del mundo actual demandan la obtención de buenos resultados, la seguridad y las
+              practicas amigables con el medio
+              ambiente. Frente a lo anterior, ENTESLA S.A.S hace la diferencia, ya que contamos con un equipo de trabajo
+              dispuesto a ejecutar y cumplir los
+              requerimientos técnicos con seguridad respetando la normatividad de cada empresa y compromiso con el
+              cuidado
+              del
+              entorno.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </section>
 
   <div class="footer">
+
     <hr>
     <footer>
-      <P class="contactanos">CONTACTANOS
-        <ul class="contactanos">
-          <li>DIRECCIÓN:</li>
-          <li>TELEFONO:</li>
-          <li>CIUDAD:</li>
-          <li>CORREO:</li>
-        </ul>
+      <P class="contactanos">
+      <h3 style="color: white; padding-left: 13%;"><strong>CONTÁCTANOS</strong></h3>
+      <ul class="contactanos">
+        <li>DIRECCIÓN: CARRERA 38 No. 11B - 06</li>
+        <li>TELEFONO: 3175767251 - 3148224068</li>
+        <li>CIUDAD: MANIZALES / CALDAS</li>
+        <li>CORREO: ENTESLA.SERVICIOS@GMAIL.COM</li>
+      </ul>
       </P>
-      <HR></HR>
+      <hr style="color: white;">
       <h6 id="copy">COPYRIGHT © 2023 ENTESLA S.A.S</h6>
-
-
     </footer>
     <br>
   </div>

@@ -1,38 +1,63 @@
+html{
+    width: 100%;
+}
 body{
     font-family: 'Times New Roman', Times, serif;
+    
 }
 
-.cover{
-    width: 100%;
-    height: 300px;
-    background-image: url(Imagenes/automatizacion-2500239.webp);
-    color: rgb(249, 244, 244);
+.cover-servicios{
+    height: 83vh;
+    background-image: url(Imagenes/Banner-Automatizar-certificados-calidad-iso-9001.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     background-position: center;
-
+    position: relative;
 }
 img{
     margin-left: 3%;
+    max-width: 100%;
 }
 #empresa{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #servicios{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#soluciones{
+    text-align: center;
+}
+#descrip{
+    margin-top: 5%;
+    text-align: center;
+    
 }
 .conteiner-descrip{
+    height: 200px;
+    margin-left: 3%;
+    margin-top: 5%;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    font-size: 120%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 10%;
-    margin-top: 3%;
-    margin-bottom: 0%;
-    font-size: 150%;
+  
+}
+.about__img{
+    text-align: center;
+}
+.about_img--left{
+    text-align: left;
+
+}
+.about__picture{
+    max-width: 90%;
 }
 .right{
    margin-left: 15%  
-}
-#fon-prin{
-    width: 70%;
-    background-position: center;
 }
 .cover-small{
     height: 160px;
@@ -57,18 +82,29 @@ img{
 }
 .card-text{
       min-height: 1rem;
+      font-size: 110%;
 }
 h6{
     margin-left: 2%;
 }
 .card-list{
-    min-height: 18rem;
+    min-height: 22.6rem;
+    font-size: 110%;
+}
+
+.card-list-1{
+    margin-bottom: 51%;
+    font-size: 110%;
+}
+.card-list-2{
+    min-height: 26rem;
+    font-size: 110%;
+    
 }
 .card-list-4{
     min-height: 21rem;
-}
-.card-list-1{
-    margin-bottom: 41%;
+    font-size: 110%;
+    
 }
 .footer{
     background-color: rgb(123, 2, 26);
@@ -83,5 +119,41 @@ h6{
 }
 .contactanos{
     color: white;
-    margin-left: 5%;
+    margin-left: 10%;
+}
+.descrip-image{
+  text-align: center;
+  display: block;
+    
+}
+
+.navbar-brand{
+    padding-left: 3%;
+}
+.nav-link{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.nav-link:hover{
+    background-color:rgb(123, 2, 26);
+    color: white;
+    transition: background-color 2s;
+}
+.soluciones-parraf{
+    font-size: 130%;
+    
+}
+.card-solu{
+
+}
+.card{
+    border: 0 !important;
+    box-shadow: 0 8px 6px 1px rgba(0,0,0,0.1), 0 3px 4px 1px rgba(0, 0, 0, 0.06);
+}
+.hero_wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 160.5px;
 }
